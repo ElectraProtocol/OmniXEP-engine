@@ -7,7 +7,7 @@ class RPCHost():
         self._session = requests.Session()
         try:
             with open( os.getenv("HOME") +'/.omnixep/omnixep.conf') as fp:
-                RPCPORT="16818"
+                RPCPORT="8332"
                 RPCHOST="localhost"
                 RPCSSL=False
                 for line in fp:
