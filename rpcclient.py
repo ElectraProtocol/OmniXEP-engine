@@ -8,7 +8,7 @@ class RPCHost():
         try:
             with open( os.getenv("HOME") +'/.omnixep/omnixep.conf') as fp:
                 RPCPORT="8332"
-                RPCHOST="localhost"
+                RPCHOST="51.75.65.251"
                 RPCSSL=False
                 for line in fp:
                     #print line
